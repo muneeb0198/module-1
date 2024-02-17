@@ -1,10 +1,62 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Oswald", sans-serif;
   box-sizing: border-box;
 }
-html,
-body {
-  width: 100%;
+
+body,
+html {
+  width: 100vw;
   height: 100vh;
+  background-color: white;
+}
+.hero {
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: auto;
+}
+
+nav ul li {
+  list-style-type: none;
+
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li:hover {
+  color: red;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+p {
+  padding-left: 16px;
+  color: #415161;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+input {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+h1 {
+  padding-top: 10%;
+  padding-left: 20px;
+  font-size: 80px;
+  color: #415161;
+}
+.center {
+  display: flex;
 }
