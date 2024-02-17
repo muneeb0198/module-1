@@ -3,56 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Riot&display=swap"
-      rel="stylesheet"
-    />
+    <title>Competion</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="hero">
-      <nav>
-        <img src="./media/site-logo-free-img-1.png" alt="website logo" />
-        <ul>
-          <li>Home</li>
-          <li>All Products</li>
-          <li>Tshirts</li>
-          <li>Mugs</li>
-          <li>About HDX</li>
-          <li>Contact</li>
-          <li>Acount</li>
-        </ul>
-      </nav>
-      <div class="center">
-        <div class="left-div">
-          <h1>CUSTOMIZED <br />PRINTED TEES</h1>
+    <div class="main">
+      <div class="navigation">
+        <div class="logo">
+          <img src="./media/site-logo-free-img-1.png" alt="logo" />
+        </div>
+        <div class="btns">
+          <button>HOME</button>
+          <button>ALL PRODUCTS</button>
+          <button>TSHIRTS</button>
+          <button>MUGS</button>
+          <button>ABOUT HDX</button>
+          <button>CONTACT</button>
+          <div class="dropdown">
+            <button class="dropbtn">
+              ACCOUNT<img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUdJREFUSEvt1L8rRlEcx/HXMxiUUkoZFIPBYrEhFLNRmWSxUQb+CpMfkwwyKaNZ+RE2i8VgsyillDIo3KP71OP2uL/Es9y7nDrn+/m+v9/P+Z5b06Kv1iKuCvxvzldWV1b/mQNZw9WGAxzGa55C5jCLsL79JEgDt+MI0/jAAvYzyPPY4+vHdIwZvDbTpIE3sZwQLWL3B3g420mcbWClKLgDpxhOCEMx24m9JWwl9q4xiZei4BDfGVl9jqEU+CrWm0Cn8FzmjuuaLpw0ga/FAUnoTXS/42nQoMua6kb4RTTZgxnDdYsxPGWNf15wyNONsxR4gE7gMQtapON6rgC/xEAi+R1G80LLgIOmB1fRe+2P4QEa7vQhT6f1mCJWN+btjac97I0UhZbtuF5AH95xX6TT33ZchvVNU9bqClzYgcrqwpaVFbTM6k89JSwfbD5UXgAAAABJRU5ErkJggg=="
+              />
+            </button>
+            <div class="dropdown-content">
+              <a href="#">MY ACCOUNT</a>
+              <a href="#">CART</a>
+            </div>
+          </div>
+          <div class="cart">
+            <p style="color: red; font-size: 2rem">£ 0.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="page_1">
+        <div class="text">
+          <h1>CUSTOMIZED PRINTED TEES</h1>
+          <br />
           <p>
             Nam at congue diam etiam erat lectus, finibus eget commodo quis,
             congue diam etiam erat lectus.
           </p>
+          <br />
+          <button>
+            EXPLORE STORE <img src="./media/arrow.jpg" alt="" srcset="" />
+          </button>
         </div>
-        <div class="right-div">
-          <img src="./media/boy pic.png" alt="" srcset="" />
-        </div>
+        <div class="pic"><img src="./media/boy pic.png" alt="man" /></div>
       </div>
-      <button type="button">
-        EXPLORE STORE<svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
-          />
-        </svg>
-      </button>
     </div>
   </body>
 </html>
